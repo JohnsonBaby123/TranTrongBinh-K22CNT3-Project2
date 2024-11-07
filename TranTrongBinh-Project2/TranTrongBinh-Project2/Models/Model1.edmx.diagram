@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18b1be170fa84e38b72ac360656f6205" Name="Diagram1">
+        <EntityTypeShape EntityType="BanHangDBModel.ChiTietDonHang" Width="1.5" PointX="7.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanHangDBModel.DonHang" Width="1.5" PointX="4" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanHangDBModel.KhachHang" Width="1.5" PointX="1.125" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanHangDBModel.SanPham" Width="1.5" PointX="8.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanHangDBModel.ThanhToan" Width="1.5" PointX="1.125" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="BanHangDBModel.FK__ChiTietDo__MaDon__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="BanHangDBModel.FK__ChiTietDo__MaSan__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="BanHangDBModel.FK__DonHang__MaKhach__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="BanHangDBModel.FK__ThanhToan__MaDon__571DF1D5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
