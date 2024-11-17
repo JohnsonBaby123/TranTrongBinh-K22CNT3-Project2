@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "D:\\Project 2\\TranTrongBinh-Project2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\donhangs\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\donhangs\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\views\\khachhangs\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\khachhangs\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\controllers\\thanhtoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\controllers\\thanhtoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\thanhtoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\chitietdonhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\chitietdonhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\views\\khachhangs\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\khachhangs\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\shared\\layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\shared\\layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\donhangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\donhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\donhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\chitietdonhangs\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\chitietdonhangs\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\views\\chitietdonhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\views\\chitietdonhangs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|D:\\Project 2\\TranTrongBinh-Project2\\trantrongbinh-project2\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|d:\\project 2\\trantrongbinh-project2\\trantrongbinh-project2\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3629EBBE-2F18-450B-925C-D41176C18388}|TranTrongBinh-Project2\\TranTrongBinh-Project2.csproj|solutionrelative:trantrongbinh-project2\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +86,258 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThanhToansController.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:40:48.245Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAB+AAAA",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\KhachHangs\\Login.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\KhachHangs\\Login.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\KhachHangs\\Login.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\KhachHangs\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T08:44:46.57Z",
+              "WhenOpened": "2024-11-16T14:01:45.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\KhachHangs\\Register.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\KhachHangs\\Register.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\KhachHangs\\Register.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\KhachHangs\\Register.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T14:00:18.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ThanhToansController.cs",
-              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
-              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
-              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
-              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\ThanhToansController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "KhachHangsController.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\KhachHangsController.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\KhachHangsController.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\KhachHangsController.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\KhachHangsController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAcwE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T08:40:48.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SanPhamsController.cs",
-              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
-              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
-              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
-              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T08:40:37.123Z",
+              "WhenOpened": "2024-11-16T13:59:22.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:54:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DonHangsController.cs",
               "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\DonHangsController.cs",
               "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\DonHangsController.cs",
               "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\DonHangsController.cs",
               "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\DonHangsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowIYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T08:40:06.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChiTietDonHangsController.cs",
-              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
-              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
-              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
-              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T08:39:48.329Z",
+              "DocumentIndex": 0,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Admin.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\DonHangs\\Admin.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Admin.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\DonHangs\\Admin.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:51:09.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:40:37.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Index.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Index.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Index.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwC8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:41:22.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T16:27:57.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Models\\KhachHang.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\KhachHang.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Models\\KhachHang.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwBsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:05:20.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Models\\Model1.edmx",
               "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "TranTrongBinh-Project2\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-11-07T08:37:38.018Z",
+              "WhenOpened": "2024-11-16T14:23:52.356Z",
               "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Details.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\DonHangs\\Details.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Details.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\DonHangs\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:51:57.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\DonHangs\\Index.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\DonHangs\\Index.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\DonHangs\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:52:06.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\Shared\\LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\Shared\\LayoutAdmin.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\Shared\\LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:38:25.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Admin.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Admin.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Admin.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Admin.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:41:17.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Details.cshtml",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Details.cshtml",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Details.cshtml",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Views\\ChiTietDonHangs\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T15:43:50.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Models\\DonHang.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Models\\DonHang.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Models\\DonHang.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T14:34:06.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChiTietDonHangsController.cs",
+              "DocumentMoniker": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
+              "RelativeDocumentMoniker": "TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
+              "ToolTip": "D:\\Project 2\\TranTrongBinh-Project2\\TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
+              "RelativeToolTip": "TranTrongBinh-Project2\\Controllers\\ChiTietDonHangsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:39:48.329Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -192,8 +192,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Models\Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -263,6 +263,12 @@
     <Content Include="Views\ThanhToans\Details.cshtml" />
     <Content Include="Views\ThanhToans\Edit.cshtml" />
     <Content Include="Views\ThanhToans\Index.cshtml" />
+    <Content Include="Views\KhachHangs\Register.cshtml" />
+    <Content Include="Views\KhachHangs\Login.cshtml" />
+    <Content Include="Views\SanPhams\CreateOrder.cshtml" />
+    <Content Include="Views\Shared\LayoutAdmin.cshtml" />
+    <Content Include="Views\ChiTietDonHangs\Admin.cshtml" />
+    <Content Include="Views\DonHangs\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

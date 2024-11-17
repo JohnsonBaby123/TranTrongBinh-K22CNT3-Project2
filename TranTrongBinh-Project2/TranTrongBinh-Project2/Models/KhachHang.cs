@@ -26,6 +26,7 @@ namespace TranTrongBinh_Project2.Models
         public string Email { get; set; }
         public string SoDienThoai { get; set; }
         public string DiaChi { get; set; }
+        public string Role { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DonHang> DonHangs { get; set; }

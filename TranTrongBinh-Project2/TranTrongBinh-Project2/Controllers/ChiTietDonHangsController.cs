@@ -12,10 +12,15 @@ namespace TranTrongBinh_Project2.Controllers
 {
     public class ChiTietDonHangsController : Controller
     {
-        private BanHangDBEntities db = new BanHangDBEntities();
+        private BanHangDBEntities2 db = new BanHangDBEntities2();
 
         // GET: ChiTietDonHangs
         public ActionResult Index()
+        {
+            var chiTietDonHangs = db.ChiTietDonHangs.Include(c => c.DonHang).Include(c => c.SanPham);
+            return View(chiTietDonHangs.ToList());
+        }
+        public ActionResult Admin()
         {
             var chiTietDonHangs = db.ChiTietDonHangs.Include(c => c.DonHang).Include(c => c.SanPham);
             return View(chiTietDonHangs.ToList());

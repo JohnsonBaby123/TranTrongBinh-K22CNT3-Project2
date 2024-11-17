@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using TranTrongBinh_Project2.Models;
 
@@ -12,7 +9,88 @@ namespace TranTrongBinh_Project2.Controllers
 {
     public class SanPhamsController : Controller
     {
-        private BanHangDBEntities db = new BanHangDBEntities();
+        private BanHangDBEntities2 db = new BanHangDBEntities2();
+
+        // GET: SanPhams/Order
+        public ActionResult Order()
+        {
+            // Get all products from the database
+            var products = db.SanPhams.ToList();
+            return View(products);
+        }
+
+        // GET: SanPhams/CreateOrder/5
+        public ActionResult CreateOrder(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            // Retrieve product details based on product ID
+            SanPham sanPham = db.SanPhams.Find(id);
+            if (sanPham == null)
+            {
+                return HttpNotFound();
+            }
+
+            // Pass the product data directly to the view
+            return View(sanPham);
+        }
+
+        // POST: SanPhams/CreateOrder
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateOrder(int id, int quantity)
+        {
+            // Kiểm tra xem khách hàng đã đăng nhập hay chưa
+            var user = Session["User"] as KhachHang;
+            if (user == null)
+            {
+                // Nếu khách hàng chưa đăng nhập, chuyển hướng đến trang đăng nhập
+                return RedirectToAction("Login", "KhachHangs");
+            }
+
+            // Retrieve the product based on the ID
+            SanPham sanPham = db.SanPhams.Find(id);
+            if (sanPham == null)
+            {
+                return HttpNotFound();
+            }
+
+            // Validate quantity (must be greater than 0)
+            if (quantity <= 0)
+            {
+                ModelState.AddModelError("", "Quantity must be greater than zero.");
+                return View(sanPham);
+            }
+
+            // Create a new order with the logged-in user's ID
+            DonHang newOrder = new DonHang
+            {
+                MaKhachHang = user.MaKhachHang, // Sử dụng MaKhachHang từ session
+                NgayDat = DateTime.Now,
+                TongTien = sanPham.Gia * quantity
+            };
+
+            db.DonHangs.Add(newOrder);
+            db.SaveChanges();
+
+            // Add order details
+            ChiTietDonHang orderDetail = new ChiTietDonHang
+            {
+                MaDonHang = newOrder.MaDonHang,
+                MaSanPham = sanPham.MaSanPham,
+                SoLuong = quantity,
+                Gia = sanPham.Gia
+            };
+
+            db.ChiTietDonHangs.Add(orderDetail);
+            db.SaveChanges();
+
+            // Redirect to the product list or another page after successful order creation
+            return RedirectToAction("Index", "SanPhams");
+        }
 
         // GET: SanPhams
         public ActionResult Index()
@@ -42,8 +120,6 @@ namespace TranTrongBinh_Project2.Controllers
         }
 
         // POST: SanPhams/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "MaSanPham,TenSanPham,DanhMuc,Gia,TonKho")] SanPham sanPham)
@@ -74,8 +150,6 @@ namespace TranTrongBinh_Project2.Controllers
         }
 
         // POST: SanPhams/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "MaSanPham,TenSanPham,DanhMuc,Gia,TonKho")] SanPham sanPham)
@@ -115,6 +189,7 @@ namespace TranTrongBinh_Project2.Controllers
             return RedirectToAction("Index");
         }
 
+        // Dispose method to free resources
         protected override void Dispose(bool disposing)
         {
             if (disposing)

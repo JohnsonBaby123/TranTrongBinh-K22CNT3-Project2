@@ -13,10 +13,10 @@ namespace TranTrongBinh_Project2.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BanHangDBEntities : DbContext
+    public partial class BanHangDBEntities2 : DbContext
     {
-        public BanHangDBEntities()
-            : base("name=BanHangDBEntities")
+        public BanHangDBEntities2()
+            : base("name=BanHangDBEntities2")
         {
         }
     

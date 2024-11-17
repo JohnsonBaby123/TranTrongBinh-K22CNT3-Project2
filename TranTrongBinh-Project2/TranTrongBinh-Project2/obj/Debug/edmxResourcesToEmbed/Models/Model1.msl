@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="BanHangDBModelStoreContainer" CdmEntityContainer="BanHangDBEntities">
+  <EntityContainerMapping StorageEntityContainer="BanHangDBModelStoreContainer" CdmEntityContainer="BanHangDBEntities2">
     <EntitySetMapping Name="ChiTietDonHangs">
       <EntityTypeMapping TypeName="BanHangDBModel.ChiTietDonHang">
         <MappingFragment StoreEntitySet="ChiTietDonHang">
@@ -25,6 +25,7 @@
     <EntitySetMapping Name="KhachHangs">
       <EntityTypeMapping TypeName="BanHangDBModel.KhachHang">
         <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="Role" ColumnName="Role" />
           <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
           <ScalarProperty Name="Ho" ColumnName="Ho" />
           <ScalarProperty Name="Ten" ColumnName="Ten" />

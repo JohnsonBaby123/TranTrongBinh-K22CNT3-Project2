@@ -35,9 +35,10 @@
             @Html.DisplayFor(modelItem => item.KhachHang.Ho)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaDonHang }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaDonHang }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaDonHang })
+            @Html.ActionLink("Delete", "Delete", new { id = item.MaDonHang })
+        </td>
+        <td>
+            @Html.ActionLink("Thanh Toán", "Create", "ThanhToans", new { MaDonHang = item.MaDonHang }, null)
         </td>
     </tr>
 }

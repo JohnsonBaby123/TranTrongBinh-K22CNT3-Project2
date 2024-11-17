@@ -12,7 +12,7 @@ namespace TranTrongBinh_Project2.Controllers
 {
     public class ThanhToansController : Controller
     {
-        private BanHangDBEntities db = new BanHangDBEntities();
+        private BanHangDBEntities2 db = new BanHangDBEntities2();
 
         // GET: ThanhToans
         public ActionResult Index()
@@ -37,9 +37,38 @@ namespace TranTrongBinh_Project2.Controllers
         }
 
         // GET: ThanhToans/Create
-        public ActionResult Create()
+        public ActionResult Create(int? MaDonHang)
         {
-            ViewBag.MaDonHang = new SelectList(db.DonHangs, "MaDonHang", "MaDonHang");
+            if (MaDonHang == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            var donHang = db.DonHangs.Find(MaDonHang);
+            if (donHang == null)
+            {
+                return HttpNotFound();
+            }
+
+            decimal tongTien = 0;
+            foreach (var chiTiet in donHang.ChiTietDonHangs)
+            {
+                tongTien += chiTiet.SanPham.Gia * chiTiet.SoLuong;
+            }
+
+            // Truyền thông tin đơn hàng và tổng tiền vào ViewBag
+            ViewBag.TongTien = tongTien;
+            ViewBag.MaDonHang = donHang.MaDonHang;
+
+            // Tạo danh sách phương thức thanh toán và chuyển thành SelectList
+            List<SelectListItem> paymentMethods = new List<SelectListItem>
+    {
+        new SelectListItem { Text = "Tiền mặt", Value = "Cash" },
+        new SelectListItem { Text = "Chuyển khoản", Value = "Transfer" },
+        new SelectListItem { Text = "Thẻ tín dụng", Value = "CreditCard" }
+    };
+            ViewBag.PhuongThucThanhToan = new SelectList(paymentMethods, "Value", "Text");
+
             return View();
         }
 

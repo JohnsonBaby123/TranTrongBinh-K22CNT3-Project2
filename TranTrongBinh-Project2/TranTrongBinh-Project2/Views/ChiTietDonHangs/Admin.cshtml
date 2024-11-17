@@ -1,7 +1,8 @@
 ﻿@model IEnumerable<TranTrongBinh_Project2.Models.ChiTietDonHang>
 
+
 @{
-    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayoutAdmin.cshtml";
 }
 
 <h2>Chi Tiết Đơn Hàng</h2>
@@ -45,9 +46,9 @@
                     @Html.DisplayFor(modelItem => item.SanPham.TenSanPham)
                 </td>
                 <td>
-                    
+                    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = item.MaChiTietDonHang }, new { @class = "btn btn-warning btn-sm" }) |
                     @Html.ActionLink("Chi tiết", "Details", new { id = item.MaChiTietDonHang }, new { @class = "btn btn-info btn-sm" }) |
-               
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaChiTietDonHang }, new { @class = "btn btn-danger btn-sm" })
                 </td>
             </tr>
         }

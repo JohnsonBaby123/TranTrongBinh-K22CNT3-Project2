@@ -2,7 +2,7 @@
 USE BanHangDB;
 
 CREATE TABLE KhachHang (
-    MaKhachHang INT PRIMARY KEY,
+    MaKhachHang INT PRIMARY KEY IDENTITY(1,1),
     Ho VARCHAR(50) NOT NULL,
     Ten VARCHAR(50) NOT NULL,
     Email VARCHAR(100),
@@ -10,8 +10,9 @@ CREATE TABLE KhachHang (
     DiaChi TEXT
 );
 
+
 CREATE TABLE SanPham (
-    MaSanPham INT PRIMARY KEY,
+    MaSanPham INT PRIMARY KEY IDENTITY(1,1),
     TenSanPham VARCHAR(100) NOT NULL,
     DanhMuc VARCHAR(50),
     Gia DECIMAL(10, 2) NOT NULL,
@@ -19,7 +20,7 @@ CREATE TABLE SanPham (
 );
 
 CREATE TABLE DonHang (
-    MaDonHang INT PRIMARY KEY,
+    MaDonHang INT PRIMARY KEY IDENTITY(1,1),
     MaKhachHang INT NOT NULL,
     NgayDat DATETIME DEFAULT CURRENT_TIMESTAMP,
     TongTien DECIMAL(10, 2) NOT NULL,
@@ -27,7 +28,7 @@ CREATE TABLE DonHang (
 );
 
 CREATE TABLE ChiTietDonHang (
-    MaChiTietDonHang INT PRIMARY KEY,
+    MaChiTietDonHang INT PRIMARY KEY IDENTITY(1,1),
     MaDonHang INT NOT NULL,
     MaSanPham INT NOT NULL,
     SoLuong INT NOT NULL,
@@ -37,42 +38,28 @@ CREATE TABLE ChiTietDonHang (
 );
 
 CREATE TABLE ThanhToan (
-    MaThanhToan INT PRIMARY KEY,
+    MaThanhToan INT PRIMARY KEY IDENTITY(1,1),
     MaDonHang INT NOT NULL,
     PhuongThucThanhToan VARCHAR(50) NOT NULL,
     SoTienThanhToan DECIMAL(10, 2) NOT NULL,
     NgayThanhToan DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (MaDonHang) REFERENCES DonHang(MaDonHang)
 );
-Select * from KhachHang
-Select * from SanPham
-Select * from DonHang
-Select * from ChiTietDonHang
-Select * from ThanhToan
+
+Select*from SanPham
+Drop table SanPham
+Drop table DonHang
+Drop table ChiTietDonHang
+Drop table ThanhToan
 
 
-INSERT INTO KhachHang (MaKhachHang, Ho, Ten, Email, SoDienThoai, DiaChi) VALUES
-(1,'Nguyễn', 'Hoài Nam', 'tuanh@example.com', '0987654321', 'Hải Dương, Việt Nam'),
-(2,'Trần', 'Trọng Bình', 'mailan@example.com', '0912345678', 'Hà Nội, Việt Nam');
 
-INSERT INTO SanPham (MaSanPham, TenSanPham, DanhMuc, Gia, TonKho) VALUES
-(1,'GSX R150', 'Suzuki', 15000.00, 10),
-(2,'R15M', 'Yamaha', 12000.00, 7),
-(3,'CBR 150R', 'Honda', 17000.00, 8),
-(4,'Ninja 125', 'Kawasaki', 19000.00, 9),
-(5,'Rebel 150', 'Honda', 14000.00, 8);
+INSERT INTO SanPham (TenSanPham, DanhMuc, Gia, TonKho) VALUES
+('GSX R150', 'Suzuki', 15000.00, 10),
+('R15M', 'Yamaha', 12000.00, 7),
+('CBR 150R', 'Honda', 17000.00, 8),
+('Ninja 125', 'Kawasaki', 19000.00, 9),
+('Rebel 150', 'Honda', 14000.00, 8),
+('TNT 150i', 'Benelli', 13000.00, 10);
 
--- Bảng DonHang
-INSERT INTO DonHang (MaDonHang, MaKhachHang, TongTien) VALUES
-(1120,1, 15000.00),
-(1121,2, 12000.00);
 
--- Bảng ChiTietDonHang
-INSERT INTO ChiTietDonHang (MaChiTietDonHang,MaDonHang, MaSanPham, SoLuong, Gia) VALUES
-(0010,1120, 1, 1, 15000.00),
-(0011,1121, 2, 1, 12000.00);
-
--- Bảng ThanhToan
-INSERT INTO ThanhToan (MaThanhToan,MaDonHang, PhuongThucThanhToan, SoTienThanhToan) VALUES
-(0010,1120, 'Chuyển khoản ngân hàng', 15000.00),
-(0011,1121, 'Thanh toán khi nhận hàng', 12000.00);
